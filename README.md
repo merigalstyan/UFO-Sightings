@@ -35,6 +35,15 @@ It's essential to provide all the sources the html file will use to load and dis
 
 <img width="658" alt="Screen Shot 2022-11-17 at 2 31 06 PM" src="https://user-images.githubusercontent.com/111609994/202574126-41d5a448-2e32-46d4-8c45-fe43e71439c1.png">
 
+## Return to javascript
+
+In the **app.js** code several functions are built to filter the table.
+The **updateFilters** function is built to filter the table based on the input from the users. In addition, an ***if-else*** statement is used to make sure
+**filters** exist and a value was entered in order to update the table on the page. If a value is not entered, the table will clear from the filters variable.
+
+<img width="539" alt="Screen Shot 2022-11-17 at 2 34 08 PM" src="https://user-images.githubusercontent.com/111609994/202574756-4c8b36b8-4ce0-4a9d-a309-d65eb812cb2b.png">
+
+Finnaly, **function filterTable()** was inserted to hold the updated table data based on the user input and to rebuild the table with the filtered data by deploying **buildTable(filteredData)**.
 
 
 
