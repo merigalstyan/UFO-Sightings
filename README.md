@@ -35,7 +35,7 @@ It's essential to provide all the sources the html file will use to load and dis
 
 <img width="658" alt="Screen Shot 2022-11-17 at 2 31 06 PM" src="https://user-images.githubusercontent.com/111609994/202574126-41d5a448-2e32-46d4-8c45-fe43e71439c1.png">
 
-## Return to javascript
+### Return to javascript
 
 In the **app.js** code several functions are built to filter the table.
 The **updateFilters** function is built to filter the table based on the input from the users. In addition, an ***if-else*** statement is used to make sure
@@ -45,5 +45,14 @@ The **updateFilters** function is built to filter the table based on the input f
 
 Finnaly, **function filterTable()** was inserted to hold the updated table data based on the user input and to rebuild the table with the filtered data by deploying **buildTable(filteredData)**.
 
+### Drawback
+
+One of the drawbacks of this webpage is the lack of flexibility of user inputs. The user must familiarize themselves with the data before filtering it since an incorrect input in the search bars will return nothing. Additionally, we can assume that another drawback is that the users won't be notified if their input is incorrect. For example, if **middleburg** was misspelled ***middle burg***, the table will display nothing and won't notify the user to maybe check the input.
+
+### Additional Steps
+
+I believe **if-else** statements could be deployed to check for incorrect inputs: if the input is incorrect, a message will let the user know. Additionally, correct versions could be offered to the user. 
+
+The data is based on USA. No other countries are used in this data. The country filter could be removed alongside with the column. The users should be informed initially that this data is about USA. It won't trick the users to look for other countries.
 
 
